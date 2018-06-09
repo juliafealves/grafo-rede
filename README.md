@@ -1,5 +1,6 @@
 # Rede de Computadores - Grafo Circuito Euleriano.
 Aplicando Teoria de Grafos em uma Rede de Computadores. Exercício desenvolvido para disciplina de Teoria dos Grafos - UFCG.
+Aplicado os conceitos de grafo conectado, grafo par e desenvolvimento do algoritmo de Fleury para adquirir a rota.
 
 ## Requisitos do Projeto:
 
