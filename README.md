@@ -11,3 +11,17 @@ Usando a API JGraphT (jgrapht.org), implemente um programa que recebe o grafo qu
 2 - Se sim, retorne a rota.
 
 ![Grafo da Rede de Computadores](rede.png)
+
+
+## Saída do Programa:
+```
+::: Estrutura do Grafo GML Importado :::
+Ordem do Grafo G: 20
+Tamanho do Grafo G: 41
+------
+V(G): [M20, M19, M2, M10, M16, M13, M17, M11, C, M4, M16, M14, M7, M1, M5, M6, M9, M3, M12, M8]
+E(G): [(M3 : M7), (M17 : M3), (M7 : M19), (M4 : M6), (M17 : M5), (M11 : C), (M14 : M5), (M13 : M16), (M8 : C), (M16 : M12), (M2 : M13), (M13 : M6), (M7 : M11), (M6 : M14), (M6 : M2), (M14 : M10), (M8 : M1), (M14 : M16), (M14 : M4), (M17 : M7), (M2 : M3), (M9 : M1), (M3 : M11), (M3 : M1), (M16 : M19), (M11 : M8), (C : M14), (M12 : M17), (C : M5), (M6 : M10), (M6 : M20), (M17 : M19), (M13 : M12), (M11 : M20), (M12 : M3), (M17 : M16), (M8 : M9), (M12 : M5), (M19 : M11), (M16 : M1), (M2 : M12)]
+------
+Rota da Máquina Gerente(C) - Circuito Euleriano: 
+[(C : M14), (M6 : M14), (M13 : M6), (M13 : M12), (M16 : M12), (M17 : M16), (M17 : M19), (M7 : M19), (M3 : M7), (M17 : M3), (M12 : M17), (M12 : M3), (M3 : M11), (M11 : M20), (M6 : M20), (M4 : M6), (M14 : M4), (M14 : M5), (M12 : M5), (M2 : M12), (M2 : M13), (M13 : M16), (M16 : M19), (M19 : M11), (M7 : M11), (M17 : M7), (M17 : M5), (C : M5), (M11 : C), (M11 : M8), (M8 : M9), (M9 : M1), (M3 : M1), (M2 : M3), (M6 : M2), (M6 : M10), (M14 : M10), (M14 : M16), (M16 : M1), (M8 : M1), (M8 : C)]
+```
